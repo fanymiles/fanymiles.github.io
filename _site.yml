@@ -1,0 +1,24 @@
+name: "Yifeng Fan"
+output_dir: "."
+navbar:
+  title: "Yifeng Fan"
+  left:
+    - text: "Writing"
+      href: research.html
+    - text: "Speaking"
+      href: talks.html
+    - text: "Programming"
+      href: software.html
+    - text: "Teaching"
+      href: teaching.html
+  right:
+    - icon: fa-envelope fa-lg
+      href: contact.html
+    - icon: fa-github fa-lg
+      href: http://github.com/fanymiles
+    - icon: fa-linkedin fa-lg
+      href: https://www.linkedin.com/in/yifengfan
+output:
+  html_document:
+    theme: paper
+    css: 'styles.css'
